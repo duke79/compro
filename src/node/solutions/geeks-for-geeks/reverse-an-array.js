@@ -3,7 +3,8 @@ module.exports = (readLine) => {
     while (T--) {
         let N = readLine().split(" ");
         let line = readLine().split(" ");
-        console.log({ N, line, args: process.argv });
-        // let line = readLine().split(" ").map(num => parseInt(num));
+        while(N--) {
+            console.log(line[N]);
+        }
     }
 };

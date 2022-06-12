@@ -13,5 +13,7 @@ const file_path = '../../sample-input/' + problem_path + '.txt';
 const solution_path = './solutions/' + problem_path + '.js';
 const main = require(solution_path);
 
+console.log('Output starts here\n--------------------------------');
 // stdio(main);
 file(file_path, main);
+console.log('--------------------------------\nOutput ends here');
